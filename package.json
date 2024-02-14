@@ -1,0 +1,23 @@
+{
+  "name": "day2",
+  "version": "1.0.0",
+  "description": "A Food booking application",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saikiran76/FoodOnline.git"
+  },
+  "keywords": [
+    "React",
+    "JavaScript"
+  ],
+  "author": "Korada Saikiran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saikiran76/FoodOnline/issues"
+  },
+  "homepage": "https://github.com/saikiran76/FoodOnline#readme"
+}
