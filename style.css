@@ -1,0 +1,38 @@
+#container{
+    border:2px solid black;
+    display: flex;
+}
+
+:hover .card{
+    color: aqua;
+}
+.card{
+    width: 200px;
+    background-color: azure;
+    padding: 1em 1em;
+    height: 250px;
+    margin:1em;
+    flex-wrap: wrap;
+
+}
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    margin-bottom: 1em;
+}
+.nav{
+    display: flex;
+    
+}
+.nav > ul{
+    list-style: none;
+    display: flex;
+    margin-right: 0.5em;
+    
+}
+ul>li{
+    margin-right: 8px;
+
+}
+
