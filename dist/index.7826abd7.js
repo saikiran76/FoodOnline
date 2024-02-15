@@ -3005,7 +3005,7 @@ const Header = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                 className: "Logo",
-                src: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fsimilarpng.com%2Fchef-restaurant-logo-illustrations-template-on-transparent-background-png%2F&psig=AOvVaw2ZNXALMsduIHCOecbglhjX&ust=1708019492125000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCPCUzsuyq4QDFQAAAAAdAAAAABAE",
+                src: "https://image.similarpng.com/very-thumbnail/2021/07/Chef-restaurant-logo-illustrations-template-on-transparent-background-PNG.png",
                 alt: "Logo"
             }, void 0, false, {
                 fileName: "App.js",
@@ -3042,117 +3042,744 @@ const Search = ()=>{
     }, undefined);
 };
 _c2 = Search;
-const AppLayout = ({ ResName, Rating, Time })=>{
+const AppLayout = (props)=>{
+    const { resData } = props;
+    const { cloudinaryImageId, name, avgRating, cuisines, costForTwo, deliveryTime } = resData?.info;
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "card",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                 className: "res",
-                src: ""
+                src: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/" + cloudinaryImageId
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 37,
+                lineNumber: 47,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                children: ResName
+                children: name
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 38,
+                lineNumber: 48,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                 children: [
-                    "Ratings: ",
-                    Rating
+                    "Ratings:",
+                    avgRating
                 ]
             }, void 0, true, {
                 fileName: "App.js",
-                lineNumber: 39,
+                lineNumber: 49,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
-                children: [
-                    "Delievery time: ",
-                    Time,
-                    " "
-                ]
-            }, void 0, true, {
+                children: " "
+            }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 40,
+                lineNumber: 50,
                 columnNumber: 9
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "App.js",
-        lineNumber: 36,
+        lineNumber: 46,
         columnNumber: 12
     }, undefined);
 };
 _c3 = AppLayout;
+const restData = [
+    {
+        "info": {
+            "id": "160221",
+            "name": "Hotel Ashoka",
+            "cloudinaryImageId": "nimazwcnfbl5a7k2uy0i",
+            "locality": "Kasturba Gandhi Ward",
+            "areaName": "Sahakar Nagar",
+            "costForTwo": "\u20B9250 for two",
+            "cuisines": [
+                "North Indian"
+            ],
+            "avgRating": 3.3,
+            "parentId": "98151",
+            "avgRatingString": "3.3",
+            "totalRatingsString": "100+",
+            "sla": {
+                "deliveryTime": 36,
+                "lastMileTravel": 2.2,
+                "serviceability": "SERVICEABLE",
+                "slaString": "35-40 mins",
+                "lastMileTravelString": "2.2 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2024-02-15 22:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "20% OFF",
+                "subHeader": "UPTO \u20B950"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-7421017e-2088-439b-b04d-b4221df56eb3"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/hotel-ashoka-kasturba-gandhi-ward-sahakar-nagar-bhandara-160221",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "183554",
+            "name": "Shivam Restaaurant",
+            "cloudinaryImageId": "wkbywqceb8prtog4sm77",
+            "locality": "MSEB Colony",
+            "areaName": "Bhandara Locality",
+            "costForTwo": "\u20B9150 for two",
+            "cuisines": [
+                "Pastas",
+                "Desserts",
+                "Chinese",
+                "North Indian",
+                "South Indian",
+                "Burgers",
+                "Ice Cream",
+                "Pizzas",
+                "Biryani"
+            ],
+            "avgRating": 4,
+            "parentId": "183622",
+            "avgRatingString": "4.0",
+            "totalRatingsString": "1K+",
+            "sla": {
+                "deliveryTime": 29,
+                "lastMileTravel": 1.5,
+                "serviceability": "SERVICEABLE",
+                "slaString": "25-30 mins",
+                "lastMileTravelString": "1.5 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2024-02-15 22:45:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-7421017e-2088-439b-b04d-b4221df56eb3"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/shivam-restaaurant-mseb-colony-bhandara-locality-bhandara-183554",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "558656",
+            "name": "The Pizza Point",
+            "cloudinaryImageId": "1d29a38bf2b2f6efab972f76a5c02c04",
+            "locality": "MSEB Colony",
+            "areaName": "Sahakar Nagar",
+            "costForTwo": "\u20B9200 for two",
+            "cuisines": [
+                "Pizzas",
+                "Italian"
+            ],
+            "avgRating": 3.5,
+            "parentId": "212633",
+            "avgRatingString": "3.5",
+            "totalRatingsString": "50+",
+            "sla": {
+                "deliveryTime": 47,
+                "lastMileTravel": 1,
+                "serviceability": "SERVICEABLE",
+                "slaString": "45-50 mins",
+                "lastMileTravelString": "1.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2024-02-15 21:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "30% OFF",
+                "subHeader": "UPTO \u20B975"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-7421017e-2088-439b-b04d-b4221df56eb3"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/the-pizza-point-mseb-colony-sahakar-nagar-bhandara-558656",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "160232",
+            "name": "House Of Biryani",
+            "cloudinaryImageId": "h7ytetmbmr0brji9p0bw",
+            "locality": "Kasturba Gandhi Ward",
+            "areaName": "Sahakar Nagar",
+            "costForTwo": "\u20B9100 for two",
+            "cuisines": [
+                "North Indian",
+                "Biryani"
+            ],
+            "avgRating": 2.8,
+            "parentId": "9334",
+            "avgRatingString": "2.8",
+            "totalRatingsString": "100+",
+            "sla": {
+                "deliveryTime": 33,
+                "lastMileTravel": 2.2,
+                "serviceability": "SERVICEABLE",
+                "slaString": "30-35 mins",
+                "lastMileTravelString": "2.2 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2024-02-15 22:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-7421017e-2088-439b-b04d-b4221df56eb3"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/house-of-biryani-kasturba-gandhi-ward-sahakar-nagar-bhandara-160232",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "160189",
+            "name": "Zaika",
+            "cloudinaryImageId": "neuj7ebmnclua3995wez",
+            "locality": "Kasturba Gandhi Ward",
+            "areaName": "Sahakar Nagar",
+            "costForTwo": "\u20B9300 for two",
+            "cuisines": [
+                "North Indian",
+                "Chinese"
+            ],
+            "avgRating": 2.3,
+            "parentId": "2551",
+            "avgRatingString": "2.3",
+            "totalRatingsString": "50+",
+            "sla": {
+                "deliveryTime": 34,
+                "lastMileTravel": 2.2,
+                "serviceability": "SERVICEABLE",
+                "slaString": "30-35 mins",
+                "lastMileTravelString": "2.2 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2024-02-15 22:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-7421017e-2088-439b-b04d-b4221df56eb3"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/zaika-kasturba-gandhi-ward-sahakar-nagar-bhandara-160189",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "160145",
+            "name": "Spicy Kitchen",
+            "cloudinaryImageId": "xjd9bl8wggq3t7ghoa5o",
+            "locality": "Kasturba Gandhi Ward",
+            "areaName": "Sahakar Nagar",
+            "costForTwo": "\u20B9150 for two",
+            "cuisines": [
+                "North Indian"
+            ],
+            "avgRating": 2.1,
+            "parentId": "4281",
+            "avgRatingString": "2.1",
+            "totalRatingsString": "20+",
+            "sla": {
+                "deliveryTime": 35,
+                "lastMileTravel": 2.2,
+                "serviceability": "SERVICEABLE",
+                "slaString": "30-35 mins",
+                "lastMileTravelString": "2.2 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2024-02-15 22:00:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-7421017e-2088-439b-b04d-b4221df56eb3"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/spicy-kitchen-kasturba-gandhi-ward-sahakar-nagar-bhandara-160145",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "587696",
+            "name": "Haldiram's Sweets and Namkeen",
+            "cloudinaryImageId": "25c3a7d394d6c5556b134385f7d665b0",
+            "locality": "Bhojapur",
+            "areaName": "Sahakar Nagar",
+            "costForTwo": "\u20B9400 for two",
+            "cuisines": [
+                "Sweets",
+                "Snacks",
+                "Desserts",
+                "Bakery",
+                "Beverages"
+            ],
+            "avgRating": 4.3,
+            "veg": true,
+            "parentId": "391465",
+            "avgRatingString": "4.3",
+            "totalRatingsString": "50+",
+            "sla": {
+                "deliveryTime": 24,
+                "lastMileTravel": 2.7,
+                "serviceability": "SERVICEABLE",
+                "slaString": "20-25 mins",
+                "lastMileTravelString": "2.7 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2024-02-15 22:30:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                        "description": "pureveg"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {},
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "pureveg",
+                                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-7421017e-2088-439b-b04d-b4221df56eb3"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/haldirams-sweets-and-namkeen-bhojapur-sahakar-nagar-bhandara-587696",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "533212",
+            "name": "Fusion Cafe And Reastorent",
+            "cloudinaryImageId": "gktx4ohvy32ddnkn3mlk",
+            "locality": "Vaishali Nagar",
+            "areaName": "Sahakar Nagar",
+            "costForTwo": "\u20B9200 for two",
+            "cuisines": [
+                "Beverages",
+                "Indian",
+                "Chinese"
+            ],
+            "avgRating": 3.8,
+            "parentId": "320720",
+            "avgRatingString": "3.8",
+            "totalRatingsString": "50+",
+            "sla": {
+                "deliveryTime": 31,
+                "lastMileTravel": 0.5,
+                "serviceability": "SERVICEABLE",
+                "slaString": "30-35 mins",
+                "lastMileTravelString": "0.5 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2024-02-15 21:30:00",
+                "opened": true
+            },
+            "badges": {},
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {},
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "10% OFF",
+                "subHeader": "UPTO \u20B940"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-7421017e-2088-439b-b04d-b4221df56eb3"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/fusion-cafe-and-reastorent-vaishali-nagar-sahakar-nagar-bhandara-533212",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    },
+    {
+        "info": {
+            "id": "354216",
+            "name": "The Bake Shop",
+            "cloudinaryImageId": "fuwnu9kwxghwcww4kknw",
+            "locality": "Sahakar Nagar",
+            "areaName": "Mseb Colony",
+            "costForTwo": "\u20B9250 for two",
+            "cuisines": [
+                "Bakery"
+            ],
+            "avgRating": 3.5,
+            "veg": true,
+            "parentId": "3608",
+            "avgRatingString": "3.5",
+            "totalRatingsString": "100+",
+            "sla": {
+                "deliveryTime": 29,
+                "lastMileTravel": 1.5,
+                "serviceability": "SERVICEABLE",
+                "slaString": "25-30 mins",
+                "lastMileTravelString": "1.5 km",
+                "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+                "nextCloseTime": "2024-02-15 22:00:00",
+                "opened": true
+            },
+            "badges": {
+                "imageBadges": [
+                    {
+                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                        "description": "pureveg"
+                    }
+                ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+                "entityBadges": {
+                    "imageBased": {
+                        "badgeObject": [
+                            {
+                                "attributes": {
+                                    "description": "pureveg",
+                                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                }
+                            }
+                        ]
+                    },
+                    "textBased": {},
+                    "textExtendedBadges": {}
+                }
+            },
+            "aggregatedDiscountInfoV3": {
+                "header": "\u20B950 OFF",
+                "subHeader": "ABOVE \u20B9199",
+                "discountTag": "FLAT DEAL"
+            },
+            "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+            },
+            "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                    "lottie": {},
+                    "video": {}
+                }
+            },
+            "reviewsSummary": {},
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {}
+        },
+        "analytics": {
+            "context": "seo-data-7421017e-2088-439b-b04d-b4221df56eb3"
+        },
+        "cta": {
+            "link": "https://www.swiggy.com/restaurants/the-bake-shop-sahakar-nagar-mseb-colony-bhandara-354216",
+            "text": "RESTAURANT_MENU",
+            "type": "WEBLINK"
+        },
+        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+    }
+];
 const Body = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "content",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Header, {}, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 49,
+                lineNumber: 720,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Search, {}, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 50,
+                lineNumber: 721,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 id: "container",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AppLayout, {
-                        ResName: "Neel Foods",
-                        Rating: "4.0",
-                        Time: "35mins"
+                children: restData.map((res)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AppLayout, {
+                        resData: res
                     }, void 0, false, {
                         fileName: "App.js",
-                        lineNumber: 52,
-                        columnNumber: 13
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AppLayout, {
-                        ResName: "RMouli Dishes",
-                        Rating: "4.3",
-                        Time: "55mins"
-                    }, void 0, false, {
-                        fileName: "App.js",
-                        lineNumber: 53,
-                        columnNumber: 13
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AppLayout, {
-                        ResName: "3vkram celluloids ",
-                        Rating: "3.0",
-                        Time: "25mins"
-                    }, void 0, false, {
-                        fileName: "App.js",
-                        lineNumber: 54,
-                        columnNumber: 13
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AppLayout, {
-                        ResName: "Maruti Restraunt",
-                        Rating: "2.5",
-                        Time: "18mins"
-                    }, void 0, false, {
-                        fileName: "App.js",
-                        lineNumber: 55,
-                        columnNumber: 13
-                    }, undefined)
-                ]
-            }, void 0, true, {
+                        lineNumber: 725,
+                        columnNumber: 17
+                    }, undefined))
+            }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 51,
+                lineNumber: 722,
                 columnNumber: 9
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "App.js",
-        lineNumber: 48,
+        lineNumber: 719,
         columnNumber: 5
     }, undefined);
 };
@@ -3160,7 +3787,7 @@ _c4 = Body;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Body, {}, void 0, false, {
     fileName: "App.js",
-    lineNumber: 63,
+    lineNumber: 737,
     columnNumber: 13
 }, undefined));
 var _c, _c1, _c2, _c3, _c4;

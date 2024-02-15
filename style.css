@@ -1,19 +1,31 @@
 #container{
     border:2px solid black;
     display: flex;
+    flex-wrap: wrap;
 }
 
-:hover .card{
+.Logo{
+    height: 10%;
+    width: 8%;
+}
+
+.card:hover{
     color: aqua;
+    cursor: pointer;
 }
 .card{
     width: 200px;
     background-color: azure;
     padding: 1em 1em;
-    height: 250px;
+    height: 300px;
     margin:1em;
     flex-wrap: wrap;
 
+}
+
+.res{
+    height: 170px;
+    width: 200px;
 }
 .main-header{
     display: flex;
