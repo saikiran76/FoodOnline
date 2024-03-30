@@ -1,0 +1,169 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* #filter-container{
+    border:1.75px solid black;
+    border-radius: 1.8%;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+}
+
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0.85em 0.85em;
+    gap: 1.30em;
+}
+.Logo{
+    height: 10%;
+    width: 8%;
+}
+
+.card:hover{
+    color: rgb(255, 163, 77) 15.9%;
+    cursor: pointer;
+}
+.card{
+    width: 170px;
+    background-color: azure;
+    padding: 1em 1em;
+    height: 280px;
+    flex-wrap: wrap;
+    border-radius: 2%;
+
+}
+
+.res{
+    height: 135px;
+    width: 160px;
+}
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    margin-bottom: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+}
+.nav{
+    display: flex;
+    gap: 0.5em;
+    margin-top: 1em;
+    font-size: medium;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.nav > ul{
+    display: flex;
+    gap: 0.70em;
+    margin-top: 1em;
+    font-size: medium;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style: none;
+    list-style: none;
+
+}
+.login-btn{
+    height: 40%;
+    width: 40%;
+    margin-top: 1em;
+    margin-right: 1em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 2em;
+}
+.nav > ul{
+    list-style: none;
+    display: flex;
+    margin-right: 1.45em;
+    
+}
+ul>li{
+    margin-right: 10px;
+
+}
+.search-bar{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 1em;
+}
+
+.shimmer{
+    display: flex;
+    gap:0.5em;
+    flex-wrap: wrap;
+}
+
+.shimmer-card{
+    background-color: #f0f0f0;
+    height: 350px;
+    width: 220px;
+}
+
+.search-bar{
+    display: flex;
+    gap:0.5em;
+    margin-bottom: 1em;
+}
+.filter{
+    display: flex;
+    gap:0.5em;
+    margin-top:1em;
+}
+.filter-btn{
+    width:  60%;
+    height: 60%;
+}
+.menu{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.accordion{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(177, 69, 69);
+    padding:0.80em 0.80em;
+    border-radius: .35%;
+    margin: 1em 1em;
+}
+
+.Items{
+    height: 80px; 
+    width: 200px;
+    background-color: #f0f0f0;
+    border-radius: 2%;
+    padding-top: 0.5em;
+    text-align: center;
+
+}
+
+.about{
+    border: 2px solid firebrick;
+    border-radius: 1%;
+    padding: 20px 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.update-btn{
+    border-radius: 2em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.about{
+    display: flex;
+    gap: 0.5em;
+}
+
+.user{
+    width: 200%;
+    height: 200%;
+    border: 0.5em solid olive;
+    border-radius: 1%;
+    background-color: #f0f0f0;
+} */
