@@ -67,12 +67,4 @@ This is a description of the food application that I have built using Parcel bun
 - **Diagnostic**
 - **Different dev and prod bundles**
 
-## Miscellaneous
-- **Namaste Food**
-- **Consistent Hashing**
-- **Differential Bundling for Older Browsers**
-
----
-
-Feel free to explore the code and contribute to the project! 🍔🍕🥗
 
